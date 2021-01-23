@@ -1,0 +1,176 @@
+        .navbar {
+            margin-top: 0;
+            padding: 2%;
+        }
+        
+        body,
+        html {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        
+        hr {
+            background-color: white;
+            outline-style: double;
+        }
+        
+        body {
+            background: url("images/bg.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            overflow-x: none;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .div1 {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 2%;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        
+        .gardening {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 2%;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        
+        .div2 {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 2%;
+            margin-right: 2%;
+        }
+        
+        .pDiv {
+            background-color: rgba(0, 0, 0, 0.0);
+        }
+        
+        .logo {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 40px;
+            color: ff0080;
+        }
+        
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: 'Dancing Script', cursive, large;
+            font-size: 25px;
+            padding: 2%;
+        }
+        
+        .logoImg {
+            height: 100px;
+            width: 500px;
+        }
+        
+        .inputSubscribe {
+            width: 75%;
+        }
+        
+        @media only screen and (min-width: 320px) and (max-width: 479px) {
+            .header {
+                height: 350px;
+            }
+            #search {
+                width: 240px;
+            }
+            .logoImg {
+                height: 85px;
+                width: 350px;
+            }
+        }
+        
+        .outer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        header {
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            height: 450px;
+            width: 100%;
+            animation: animate 30s ease-in-out infinite;
+            animation-name: eit;
+            -webkit-animation: animate 16s ease-in infinite;
+            -webkit-animation-name: eit;
+            text-align: center;
+        }
+        
+        @keyframes eit {
+            0% {
+                background: url("images/h2.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                /* background-position: center; */
+            }
+            25% {
+                background: url("images/h1.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                /* background-position: center; */
+            }
+            50% {
+                background: url("images/h3.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                /* background-position: center; */
+            }
+            75% {
+                background: url("images/h4.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                /* background-position: center; */
+            }
+            100% {
+                background: url("images/h5.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                /* background-position: center; */
+            }
+        }
+        
+        @-webkit-keyframes eit {
+            0% {
+                background: url("images/header2.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            25% {
+                background: url("images/header1.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            50% {
+                background: url("images/header3.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            75% {
+                background: url("images/header4.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            100% {
+                background: url("images/header5.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
