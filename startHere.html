@@ -2,176 +2,252 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> EnviroInsightTech </title>
+    <title> EnviroInsightTech
+    </title>
+
     <link rel="stylesheet" type="text/css" href="styles.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <script defer src="https://friconix.com/cdn/friconix.js">
     </script>
-    <script src='scripts.js' defer></script>
+    <script src='scripts.js' defer>
+    </script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
-
-
-    <!--navbar-->
-
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase.js">
+    </script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyAa1Lkh8A8MKUa8nVfFlZ3pQ0YpCXhp_j8",
+            authDomain: "enviroinsighttech-78fcf.firebaseapp.com",
+            databaseURL: "https://enviroinsighttech-78fcf.firebaseio.com",
+            projectId: "enviroinsighttech-78fcf",
+            storageBucket: "enviroinsighttech-78fcf.appspot.com",
+            messagingSenderId: "535766362159",
+            appId: "1:535766362159:web:c847553b368a3527697eda"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <a class="navbar-brand" href="#">
             <h4 class='logo'>EIT</h1>
-        </a>
-        <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        </a> <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+
+<span class="navbar-toggler-icon">
+</span> </button>
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto text-lg-left ">
+                <li class="nav-item "> <a class="nav-link" href="index.html">Home 
 
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="startHere.html">Start here</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="game/game.html">Play</a>
-                </li>
-                <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Contact
-              </a>
-                    <div class="dropdown-menu  " aria-labelledby="navbarDropdown ">
-                        <a class="dropdown-item " href="mailto:enviroinsighttech@gmail.com?subject=Questions, comments, or concerns!">Email</a>
-                        <a class=" dropdown-item " href="# ">Phone</a>
+<span class="sr-only">(current)
+</span></a></li>
+                <li class="nav-item active"> <a class="nav-link" href="startHere.html">Tips</a></li>
+                <li class="nav-item"> <a class="nav-link" href="game/index.html">Play</a></li>
+                <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Contact </a>
 
-                </li>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown "> <a class="dropdown-item " href="mailto:enviroinsighttech@gmail.com?subject=Questions, comments, or concerns!">Email</a></li>
+                <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Social Media </a>
 
-                <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Social Media
-              </a>
-                    <div class="dropdown-menu  " aria-labelledby="navbarDropdown ">
-                        <a class="dropdown-item " href=" ">Instagram</a>
-                        <a class=" dropdown-item " href="# ">Twitter</a>
-                        <a class=" dropdown-item " href="# ">Facebook</a>
-                </li>
-
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown "> <a class="dropdown-item " href="https://www.instagram.com/enviroinsighttech/">Instagram</a> <a class=" dropdown-item " href="https://twitter.com/enviroinsightt">Twitter</a> <a class=" dropdown-item " href="https://www.facebook.com/profile.php?id=100054386855626">Facebook</a></li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 ">
-                <input class="form-control mr-sm-2 " id="search" type=" search " placeholder="Search " aria-label="Search ">&nbsp; &nbsp;
-                <button class="btn btn-outline-success my-2 my-sm-0 searchButton " type="submit ">Search</button>
-            </form>
 
+            <form class="form-inline my-2 my-lg-0 ">
+                <input class="form-control mr-sm-2 " id="search" type=" search " placeholder="Search " aria-label="Search ">&nbsp; &nbsp; <button class="btn btn-outline-success my-2 my-sm-0 searchButton " type="submit ">Search</button>
+            </form>
             </div>
     </nav>
 
-
-
-
-
-
-
-
-    <!-- navbar ending-->
-
-
-    <!--header-->
     <header>
-        <div class="outer ">
-            <strong>
-           <img src="images/logo.png " class="logoImg"><br>
-        <h5 style="color: white;">“Progress is impossible without change, and those who cannot change their minds cannot change anything.”</h5>
-        </strong>
+
+        <div class="outer "> <strong> <img src="images/logo.png " class="logoImg">
+<br><h5 style="color: white;">“Progress is impossible without change, and those who cannot change their minds cannot change anything.”</h5> </strong>
         </div>
-
-    </header><br>
-
-
-    <!--header ends-->
-
-
-    <!--centent here-->
-    <div class="gardening">
-        <h3 style="text-align: center;">Tips on gardening</h3>
-
-        <p>Eco-friendly gardens: 7 ways you can help protect the environment with self-sustaining gardening habits</p>
-
-        <ul>
-            <li>Conserve water. </li>
-            <li>Recycle plastic bottles and containers</li>
-            <li>Choose the right plants</li>
-            <li>Attract the right bugs. </li>
-            <li>Create and use your own compost.</li>
-            <li>Companion planting.</li>
-            <li>Use natural fertilizers and herbicides.</li>
-
-        </UL>
-
-
-    </div>
-    <!--content ends-->
-    <!--footer-->
-
-
+    </header>
     <br>
-    <section class="s">
+
+    <div class="row">
+
+        <div class="col-md-8 div1" id="body">
+
+            <div class="gardening" id="gardening">
+                <h3 style="text-align: center;">Tips on gardening</h3>
+
+                <p>Eco-friendly gardens: 7 ways you can help protect the environment with self-sustaining gardening habits</p>
+                <ul>
+                    <li>Conserving water. That is important because it gives less work to water treatment plants and will cut back on watsstethat Conserving water means using our water supply wisely and be responsible. As every individual depends on water
+                        for livelihood, we must learn how to keep our limited supply of water pure and away from pollution.</li>
+                    <li>Recycling plastic bottles and containers is an obvious REDUCE, REUSE, and RECYCLE, the three R's, that some people don't even follow anymore which is very sad to see. The process of recycling plastic helps waste management by saving
+                        available space in landfills. Plastics disposed of in the trash take up a lot of space and increase the amount of solid waste. Recycling is easy. All you have to do is throw out the trash in the right bin and move on with your
+                        day.</li>
+                    <li>Choose the right plants. It's good to choose the right plants mostly for the bugs and how they would protect your garden.</li>
+                    <li>Attract the right bugs. When I say attract the right bugs I mean get the right bugs that will defend your garden because in gardens we don't want those pesky critters eating our plants or harming them. We want those animals that would
+                        protect the plants and scare off the others. That is why you need to attract the RIGHT bugs that will defend your garden and will help your garden grow.</li>
+                    <li>Create and use your own compost.</li>
+                    <li>Companion planting. Companion planting is a great way to maximize the efficiency of your garden. For almost every vegetable you grow, it is likely to be beneficial to another plant; it will help increase soil nutrients, chase away
+                        pests, or provide some other benefit.</li>
+                    <li>It is very highly and recommended to use fertilizers and herbicides. It is good to use fertilizers because these substances contain plant nutrients such as nitrogen, phosphorus, and potassium that help the plant grow. Also this maintains
+                        the soil fertility, so farmers and people can continue to grow nutritious and healthy crops. It is good to use herbicides because it's a pesticide used to kill unwanted plants. Selective herbicides kill certain targets while leaving
+                        the desired crop relatively unharmed. Herbicides used to clear ground waste are nonselective and kill all plants in that area.</li>
+                </ul>
+                <br> <iframe width="100%" height="315" src="https://www.youtube.com/embed/B0DrWAUsNSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+            </div>
+            <br>
+
+            <div class="recycling" id="recycling">
+                <h3 style="text-align: center;">Tips on recycling</h3>
+                <ul>
+                    <li>No bags. Like really, no bags. Grocery bags dissolve into potentially harmful microplastics and, in the case of ingestion or entanglement, they hurt and kill animals. They’re pretty much the worst. Even though these bags are technically
+                        recyclable, you must go to a drop-off area to do that, not your curbside bin. They are the worst of the worst thus is why you must recycle so no harm will be done against animals.</li>
+                    <li>Combined materials are trash. I put this here because some people have trouble with knowing whats trash when it has combined material and they put it in the wrong bin or sometimes they just don't care what bin it goes in at all just
+                        a little reminder for people to know what to do when theres combined materials :)</li>
+                    <li>If there are instructions on the bin, follow them as best as possible. If there are no instruction ask for help. Follow the rules. Please :).</li>
+                    <li>NO food, NO liquids, NO straws, NO plastic cups and NO plastic dishware in the recycling bin. Compost all food and food-soiled paper when possible. food waste will rot away and decompose - even “recycling” food will mean it decomposes
+                        and turns into energy for the next generation. Of course - there are recycling bins just for food recycling - where the food waste does not go to landfill but to a composting or energy generating plant. Don't put food in the recycling
+                        bin, put it in the right bin.</li>
+                </ul>
+                <br> <iframe width="100%" height="315" src="https://www.youtube.com/embed/kozJmBpLDF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+            </div>
+        </div>
+        <br>
+
+        <div class="div2 col-md-3" id="body">
+
+            <div style="background-color: white; color: black;">
+                <a href="https://www.finegardening.com/article/six-tips-for-effective-weed-control"> <img src=" images/a7.jpg" style="width: 100%; padding:2%; height: 170px; "> </a>
+
+                <p>Tips for controlling weed in your Garden.</p>
+            </div>
+            <br>
+
+            <div style="background-color: white; color: black; ">
+                <a href="https://www.planetnatural.com/category/gardening/ "> <img src="images/b2.jpg " style="width: 100%; padding:2%; height: 170px; "> </a>
+
+                <p>Easy tips for Gardening
+
+                    <p>
+            </div>
+            <br>
+
+            <div style="background-color: white; color: black; ">
+                <a href="https://www.canr.msu.edu/news/composting_a_smart_gardening_practice_to_recycle_garden_and_yard_waste "> <img src="images/a3.jpg " style="width: 100%; padding:2%; height: 170px; "> </a>
+
+                <p>Benefits of putting compost in Gardens</p>
+            </div>
+            <br>
+
+            <div style="background-color: white; color: black; ">
+                <a href="https://www.growingagreenerworld.com/gardening-tips/ "><img src="images/b3.jpg " style="width: 100%; padding:2%; height: 170px; "></a>
+
+                <p>How to manage your Garden
+
+                    <p>
+            </div>
+            <br>
+
+            <div style="background-color: white; color: black; ">
+                <a href="https://www.miraclegro.com/en-us/library/gardening-basics/10-top-gardening-tips-beginners "> <img src="images/b4.jpg " style="width: 100%; padding:2%; height: 170px; "></a>
+
+                <p>Basic tips for starting your Garden
+
+                    <p>
+            </div>
+            <br>
+            <hr>
+            <br>
+
+            <div style="background-color: white; color: black; ">
+                <a href="https://www.epa.gov/recycle/recycling-basics#Benefit "> <img src="images/a1.jpg " style="width: 100%; padding:2%; height: 160px; "> </a>
+
+                <p>Gives a basic understanding of how recycling helps us.</p>
+            </div>
+            <br>
+
+            <div style="background-color: white; color: black; ">
+                <a href="https://recyclingpartnership.org/article-all-the-ways-recycling-is-broken-and-how-to-fix-them/ "> <img src="images/a2.jpg " style="width: 100%; padding:2%; height: 160px; "> </a>
+
+                <p>Information about how we can fix the recycling system.</p>
+            </div>
+            <br>
+
+            <div style="background-color: white; color: black; ">
+                <a href="https://www.wastedive.com/news/what-chinese-import-policies-mean-for-all-50-states/510751/ "> <img src="images/a4.jpg " style="width: 100%; padding:2%; height: 200px; "> </a>
+
+                <p>Information about how recycling has changed each state.
+
+                    <p>
+            </div>
+            <br>
+
+            <div style="background-color: white; color: black; ">
+                <a href="https://lifehacker.com/dont-crush-cans-before-recycling-them-1833374490"> <img src="images/b6.jpg " style="width: 100%; padding:2%; height: 160px; "> </a>
+
+                <p>Why we should not crush cans.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
         <style>
 
         </style>
-        <div class="footer"><br>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+
+        <div class="footer " style=" font-family: 'Playfair Display', serif; width: 100%;">
+            <br>
+
+            <div class="row ">
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
                     <h3> Contact us</h3>
-                    <h5>Phone<br>
-                        <a style="color: white;" href=" mailto:enviroinsighttech@gmail.com?subject=Questions, comments, or concerns! "> Email</a>
-
-                        <br><br></h5>
-
-                </div>
-
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
-                    <h3> Start here </h3>
                     <h5>
-                        Gardening
-                        <br> Recycling
-                        <br><br></h5>
+                        <br> <a style="color: white; " href=" mailto:enviroinsighttech@gmail.com?subject=Questions, comments, or concerns! "> Email</a>
+                        <br>
+                        <br></h5>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
-                    <h3> Subscribe </h3>
+                    <h3>Tips</h3>
+                    <h5> <a href="startHere.html#gardening " style="color: white; "> Gardening</a>
+                        <br> <a href="startHere.html#recycling " style="color: white; "> Recycling</a>
+                        <br>
+                        <br></h5>
+                </div>
+
+                <div class=" col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <h3> Subscribe</h3>
+
                     <form>
-
-                        <center> <input class="form-control mr-sm-2 inputSubscribe " id="search " type=" search " placeholder="Type your email here " aria-label="Search ">
-                            <button type="button " class="btn btn-danger ">Submit</button>
-                    </form><br><br>
-                    </center>
+                        <center>
+                            <input class="form-control mr-sm-2 inputSubscribe " id="search " type=" search " placeholder="Type your email here " aria-label="Search "> <button type="button " class="btn btn-danger " id="buttonSubscribe">Submit</button>
+                    </form>
+                    <br>
+                    <br></center>
                 </div>
-
-
 
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
-                    <h3> Social media
-                    </h3>
-
-                    <I class="fi-xnsuxl-twitter " style="color:blue; "></I
-              "></I>
-                    <I class="fi-xnsuxl-instagram" style="color:blue;"></I
-            "></I>
-                    <i class="fi-cnsuxl-facebook-circle" style="color:blue;"></i>
-                    <br><br><br>
+                    <h3> Social Media</h3>
+                    <a href="https://twitter.com/Enviroinsightt" target="_blank"> <i class="fi-xnsuxl-twitter " style="color:blue; "></i> </a>
+                    <a href="https://www.instagram.com/enviroinsighttech/ " target="_blank"> <i class="fi-xnsuxl-instagram " style="color:blue; "></i> </a>
+                    <a href="https://www.facebook.com/profile.php?id=100054386855626" target="_blank"> <i class="fi-cnsuxl-facebook-circle" style="color:blue;"></i></a>
+                    <br>
+                    <br>
+                    <br>
                 </div>
-
-    </section>
-
-    <!--footer ends-->
-
 </body>
 
 </html>

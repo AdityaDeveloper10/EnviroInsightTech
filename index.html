@@ -2,252 +2,210 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> EnviroInsightTech </title>
+    <title> EnviroInsightTech
+    </title>
+
     <link rel="stylesheet" type="text/css" href="styles.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <script defer src="https://friconix.com/cdn/friconix.js">
     </script>
-    <script src='scripts.js' defer></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase.js">
+    </script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyAa1Lkh8A8MKUa8nVfFlZ3pQ0YpCXhp_j8",
+            authDomain: "enviroinsighttech-78fcf.firebaseapp.com",
+            databaseURL: "https://enviroinsighttech-78fcf.firebaseio.com",
+            projectId: "enviroinsighttech-78fcf",
+            storageBucket: "enviroinsighttech-78fcf.appspot.com",
+            messagingSenderId: "535766362159",
+            appId: "1:535766362159:web:c847553b368a3527697eda"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src='scripts.js' defer>
+    </script>
 </head>
 
 <body>
-
-
-    <!--navbar-->
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <a class="navbar-brand" href="#">
             <h4 class='logo'>EIT</h1>
-        </a>
-        <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        </a> <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+
+<span class="navbar-toggler-icon">
+</span> </button>
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto text-lg-left ">
+                <li class="nav-item active"> <a class="nav-link" href="index.html">Home 
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="startHere.html">Tips</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="game/game.html">Play</a>
-                </li>
-                <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Contact
-              </a>
-                    <div class="dropdown-menu  " aria-labelledby="navbarDropdown ">
-                        <a class="dropdown-item " href="mailto:enviroinsighttech@gmail.com?subject=Questions, comments, or concerns!">Email</a>
-                        <a class=" dropdown-item " href="# ">Phone</a>
+<span class="sr-only">(current)
+</span></a></li>
+                <li class="nav-item "> <a class="nav-link" href="startHere.html">Tips</a></li>
+                <li class="nav-item"> <a class="nav-link" href="game/index.html">Play</a></li>
+                <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Contact </a>
 
-                </li>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown "> <a class="dropdown-item " href="mailto:enviroinsighttech@gmail.com?subject=Questions, comments, or concerns!">Email</a></li>
+                <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Social Media </a>
 
-                <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Social Media
-              </a>
-                    <div class="dropdown-menu  " aria-labelledby="navbarDropdown ">
-                        <a class="dropdown-item " href=" ">Instagram</a>
-                        <a class=" dropdown-item " href="# ">Twitter</a>
-                        <a class=" dropdown-item " href="# ">Facebook</a>
-                </li>
-
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown "> <a class="dropdown-item " href="https://www.instagram.com/enviroinsighttech/">Instagram</a> <a class=" dropdown-item " href="https://twitter.com/enviroinsightt">Twitter</a> <a class=" dropdown-item " href="https://www.facebook.com/profile.php?id=100054386855626">Facebook</a></li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 ">
-                <input class="form-control mr-sm-2 " id="search" type=" search " placeholder="Search " aria-label="Search ">&nbsp; &nbsp;
-                <button class="btn btn-outline-success my-2 my-sm-0 searchButton " type="submit ">Search</button>
-            </form>
 
+            <form class="form-inline my-2 my-lg-0 ">
+                <input class="form-control mr-sm-2 " id="search" type=" search " placeholder="Search " aria-label="Search ">&nbsp; &nbsp; <button class="btn btn-outline-success my-2 my-sm-0 searchButton " type="submit ">Search</button>
+            </form>
             </div>
     </nav>
 
-
-
-
-
-
-
-
-    <!-- navbar ending-->
-
-
-    <!--header-->
     <header>
-        <div class="outer ">
-            <strong>
-           <img src="images/logo.png " class="logoImg"><br>
-        <h5 style="color: white;">“Progress is impossible without change, and those who cannot change their minds cannot change anything.”</h5>
-        </strong>
+
+        <div class="outer "> <strong> <img src="images/logo.png " class="logoImg ">
+<br><h5 style="color: white; ">“Progress is impossible without change, and those who cannot change their minds cannot change anything.”</h5> </strong>
         </div>
-
-    </header><br>
-
-    <!--header ends-->
-
-
-    <!--content-->
-    <div class="pDiv">
-        <center>
-            <div class="row">
-                <div class=" col-md-8 div1" id="body">
-                    <h3> New York environment</h3>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Big Apple took the top spot in three of those categories, giving it a highest-in-the-nation score of 427.9 on Busy Bee's "dirtiness index." New York City well
-                        outpaced its West Coast rival, Los Angeles, which ranked second overall with a score of 317.8.! It's the actions of business and industry that are making NYC so dirty.</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As you can see on our crazy facts it shows counters of how much things are harming our planet. You might ask how is this harming our planet if you were to compare
-                        the world population and the Cost of not acting on climate change it's a pretty huge gap. Ww were wasting all of our money to nonsense instead of the environment were harming our own planet we need to think about the next generation
-                        and how there gonna live life on this planet.
-                    </p>
-
-                    <!--youtube video-->
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/GI4YXufffPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                    <P>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here's another fun fact did you know More than 100 million pounds of garbage are generated by national park visitors each year. ... What's more, a second study found that the bulk
-                        of that waste is coming from outside the parks and that the lion's share of the garbage is food waste and plastic water bottles. Yea thats pretty gross your going into a park walking when your actually walking in a huge garbage
-                        can filled with trash which is disguting. Think about the generation pardon my language is screwed if we dont do something. Your looking into thee future right now you see your future son/daughter the sky is gray filled with smog
-                        and all the floors are filled with garbage if we don't fix our act and start cleaning our trash our mistakes.
-                    </p>
-                    <!--youtube video-->
-
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ir6uF5dFZRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <br><br>
-                    <div class="gardening">
-
-
-                        <h3 style="text-align: center;">Tips on gardening</h3>
-
-                        <p>Eco-friendly gardens: 7 ways you can help protect the environment with self-sustaining gardening habits</p>
-
-                        <ul style="text-align: left;">
-                            <li>Conserve water. </li>
-                            <li>Recycle plastic bottles and containers</li>
-                            <li>Choose the right plants</li>
-                            <li>Attract the right bugs. </li>
-                            <li>Create and use your own compost.</li>
-                            <li>Companion planting.</li>
-                            <li>Use natural fertilizers and herbicides.</li>
-
-                        </UL>
-                        <A href="startHere.html"> <button type="button" class="btn btn-success">Learn more</button>
-                        </A>
-                    </div>
-
-
-                </div>
-                <div class="col-md-3 div2">
-                    <h3>Crazy Facts</h3>
-                    <p>'All the data has been gathered from a very reliable source '
-
-                    </p>
-                    <iframe title='Cost of not acting on climate change (US $) ' src='https://www.theworldcounts.com/embed/challenges/98?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14
-                            ' style='border: none ' height='100 ' width='100% '></iframe>
-                    <iframe title='World average temperature (°C) ' src='https://www.theworldcounts.com/embed/challenges/21?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 ' style='border:
-                            none ' height='100 ' width='100% '></iframe>
-                    <iframe title='Tons of CO2 emitted into the atmosphere ' src='https://www.theworldcounts.com/embed/challenges/23?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14
-                            ' style='border: none ' height='100 ' width='100% '></iframe>
-                    <iframe title='Number of planet Earths we need ' src='https://www.theworldcounts.com/embed/challenges/83?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 ' style='border:
-                            none ' height='100 ' width='100% '></iframe>
-                    <iframe title='World population ' src='https://www.theworldcounts.com/embed/challenges/8?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 ' style='border: none
-                            ' height='100 ' width='100% '></iframe>
-                    <iframe title='Tons of resources extracted from Earth ' src='https://www.theworldcounts.com/embed/challenges/5?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14
-                            ' style='border: none ' height='100 ' width='100% '></iframe>
-                    <iframe title='Tons of waste dumped ' src='https://www.theworldcounts.com/embed/challenges/104?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 ' style='border: none
-                            ' height='100 ' width='100% '></iframe>
-                    <iframe title='Tons of melted ice ' src='https://www.theworldcounts.com/embed/challenges/22?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 ' style='border: none
-                            ' height='100 ' width='100% '></iframe>
-                    <iframe title='Chemical production ' src='https://www.theworldcounts.com/embed/challenges/110?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 ' style='border: none
-                            ' height='100 ' width='100% '></iframe>
-                    <br>
-                    <hr>
-                    <div style="background-color: white;">
-                        <br>
-                        <a href="https://www.nytimes.com/sectionh/climate">
-                            <img src="images/nytime.jpg" style="width: 100%;  padding: 2%;">
-                        </a>
-                        <p>An article on environment and climate change by New York times.<br> Check it out</p>
-                    </div>
-
-                    <div style="background-color: white;">
-                        <br>
-                        <a href="https://www.dec.ny.gov/energy/94702.html">
-                            <img src="images/climate.jpg" style="width: 100%;  padding: 2%;">
-                        </a>
-                        <p>An article on Impacts of Climate Change in New York by dept. of environment conservation.<br> Check it out</p>
-                    </div>
-                </div>
-
-
-            </div>
-        </center>
-
-    </div>
-    <!--content ends-->
-
-    <!--footer-->
-
-
+    </header>
     <br>
-    <section class="s ">
-        <style>
 
-        </style>
-        <div class="footer "><br>
-            <div class="row ">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
-                    <h3> Contact us</h3>
-                    <h5>Phone<br>
-                        <a style="color: white; " href=" mailto:enviroinsighttech@gmail.com?subject=Questions, comments, or concerns! "> Email</a>
+    <div class="pDiv " style="text-align: center;">
 
-                        <br><br></h5>
+        <div class="row ">
 
+            <div class=" col-md-8 div1 " id="body ">
+                <h3> New York environment</h3>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Big Apple takes the lead in trash living giving it a highest-in-the-nation score of 427.9 on Busy Bee's "dirtiness index". New York City heavily outpaced its West
+                    Coast rival, Los Angeles, which ranked second overall with a score of 317.8! It's the actions of businesses and industriesies that are making NYC so dirty. As well as people who don't care.</p>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As you can see on our crazy facts it shows counters of how much things are harming our planet. You might ask how is this harming our planet if you were to compare
+                    the world population and the cost of not acting on climate change it's a pretty huge gap. We are wasting all of our money on nonsense. Instead of helping the environment we are harming our own planet. We need to think about the next
+                    generation and how there gonna live life on this planet.</p> <iframe width="100% " height="315 " src="https://www.youtube.com/embed/GI4YXufffPc " frameborder="0 " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture "
+                    allowfullscreen></iframe>
+
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here's another fun fact, did you know more than 100 million pounds of garbage are generated by national park visitors each year. A second study found that the bulk
+                    of that waste is coming from outside the parks and that the lion's share of the garbage is food waste and plastic water bottles. Yes that is really gross your going into a park walking when your actually walking in a huge garbage can
+                    filled with trash which is disguting. Think about the generation pardon my language is screwed if we dont do something. Your looking into thee future right now you see your future son/daughter the sky is gray filled with smog and all
+                    the floors are filled with garbage if we don't fix our act and start cleaning our trash our mistakes.</p><iframe width="100% " height="315 " src="https://www.youtube.com/embed/ir6uF5dFZRw " frameborder="0 " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture "
+                    allowfullscreen></iframe>
+                <br>
+                <br>
+
+                <p style="background-color:rgb(0,255,0); padding: 2%; ">
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong> That's not even 1% of whats happening to our environment is in New York. So let us start working on at least one small initiative that might bring an impact to our environment. Even if everyone starts planting small numbers of plants at the open lots, parks, areas or even at their kitchen gardens then it can solve some of the big issues that we are facing. </strong>
+                    <br>
+                    <br></p>
+                <br>
+                <br>
+
+                <div class="gardening ">
+                    <h3 style="text-align: center; ">Tips on Gardening</h3>
+
+                    <p>Eco-friendly Gardens: 7 ways you can help protect the environment with self-sustaining gardening habits</p>
+                    <ul style="text-align: left; ">
+                        <li>Conserve water.</li>
+                        <li>Recycle plastic bottles and containers.</li>
+                        <li>Choose the right plants.</li>
+                        <li>Attract the right bugs</li>
+                        <li>Create and use your own compost.</li>
+                        <li>Companion planting.</li>
+                        <li>Use natural fertilizers and herbicides.</li>
+                    </ul>
+                    <A href="startHere.html#gardening "> <button type="button " class="btn btn-success ">Learn more</button> </A>
+                </div>
+            </div>
+
+            <div class="col-md-3 div2 ">
+                <h3>Crazy Facts</h3>
+
+                <p>The information shown below is the live count of all the categories.</p> <iframe title='Cost of not acting on climate change (US $) ' src='https://www.theworldcounts.com/embed/challenges/98?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe> <iframe title='World average temperature (°C) ' src='https://www.theworldcounts.com/embed/challenges/21?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe> <iframe title='Tons of CO2 emitted into the atmosphere ' src='https://www.theworldcounts.com/embed/challenges/23?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe> <iframe title='Number of planet Earths we need ' src='https://www.theworldcounts.com/embed/challenges/83?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe> <iframe title='World population ' src='https://www.theworldcounts.com/embed/challenges/8?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe> <iframe title='Tons of resources extracted from Earth ' src='https://www.theworldcounts.com/embed/challenges/5?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe> <iframe title='Tons of waste dumped ' src='https://www.theworldcounts.com/embed/challenges/104?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe> <iframe title='Tons of melted ice ' src='https://www.theworldcounts.com/embed/challenges/22?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe> <iframe title='Chemical production ' src='https://www.theworldcounts.com/embed/challenges/110?background_color=rgb(0,255,0)&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14 '
+                    style='border: none ' height='100 ' width='100% '></iframe>
+                <br>
+                <hr>
+
+                <div style="background-color: white; ">
+                    <br>
+                    <a href="https://www.nytimes.com/sectionh/climate "> <img src="images/nytime.jpg " style="width: 100%; padding: 2%; height: 159px; "> </a>
+
+                    <p>A article on environment and climate change by New York Times.
+                        <br> Check it out</p>
                 </div>
 
+                <div style="background-color: white; ">
+                    <br>
+                    <a href="https://www.dec.ny.gov/energy/94702.html "> <img src="images/climate.jpg " style="width: 100%; padding: 2%; height: 150px; "> </a>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
-                    <h3> Start here </h3>
-                    <h5>
-                        Gardening
-                        <br> Recycling
-                        <br><br></h5>
+                    <p>An article on "Impacts of Climate Change in New York" by dept. of environment conservation.
+                        <br> Check it out</p>
                 </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <style>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
-                    <h3> Subscribe </h3>
-                    <form>
+    </style>
 
-                        <center> <input class="form-control mr-sm-2 inputSubscribe " id="search " type=" search " placeholder="Type your email here " aria-label="Search ">
-                            <button type="button " class="btn btn-danger ">Submit</button>
-                    </form><br><br>
-                    </center>
-                </div>
+    <div class="footer " style=" font-family: 'Playfair Display', serif;">
+        <br>
 
+        <div class="row ">
 
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
+                <h3> Contact us</h3>
+                <h5>
+                    <br> <a style="color: white; " href=" mailto:enviroinsighttech@gmail.com?subject=Questions, comments, or concerns! "> Email</a>
+                    <br>
+                    <br></h5>
+            </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
-                    <h3> Social media
-                    </h3>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
+                <h3>Tips</h3>
+                <h5> <a href="startHere.html#gardening " style="color: white; "> Gardening</a>
+                    <br> <a href="startHere.html#recycling " style="color: white; "> Recycling</a>
+                    <br>
+                    <br></h5>
+            </div>
 
-                    <I class="fi-xnsuxl-twitter " style="color:blue; "></I
-             "></I>
-                    <I class="fi-xnsuxl-instagram" style="color:blue;"></I
-           "></I>
-                    <i class="fi-cnsuxl-facebook-circle" style="color:blue;"></i>
-                    <br><br><br>
-                </div>
+            <div class=" col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <h3> Subscribe</h3>
 
-    </section>
+                <form>
+                    <center>
+                        <input class="form-control mr-sm-2 inputSubscribe " id="search " type=" search " placeholder="Type your email here " aria-label="Search "> <button type="button " class="btn btn-danger " id="buttonSubscribe">Submit</button>
+                </form>
+                <br>
+                <br></center>
+            </div>
 
-    <!--footer ends-->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
+                <h3> Social Media</h3>
+                <a href="https://twitter.com/Enviroinsightt" target="_blank"> <i class="fi-xnsuxl-twitter " style="color:blue; "></i> </a>
+                <a href="https://www.instagram.com/enviroinsighttech/ " target="_blank"> <i class="fi-xnsuxl-instagram " style="color:blue; "></i> </a>
+                <a href="https://www.facebook.com/profile.php?id=100054386855626" target="_blank"> <i class="fi-cnsuxl-facebook-circle" style="color:blue;"></i></a>
+                <br>
+                <br>
+                <br>
+            </div>
 </body>
 
 </html>
