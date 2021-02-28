@@ -15,11 +15,11 @@ hr {
 }
 
 body {
-    background: url(images/bg.jpg);
     background-position: center;
     background-attachment: fixed;
     overflow-x: none;
     background-repeat: no-repeat;
+    background-image: url("images/bgbody1.jpg");
     background-size: cover;
     font-family: "Playfair Display", serif;
 }
@@ -112,68 +112,12 @@ header {
     margin: 0;
     padding: 0;
     background-size: cover;
+    background: url(images/bg.jpg);
+    background-position: center;
+    overflow-x: none;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 450px;
     width: 100%;
-    animation: animate 30s ease-in-out infinite;
-    animation-name: eit;
-    animation-delay: 1.5s;
-    -webkit-animation-delay: 1.5s;
-    -webkit-animation-name: eit;
     text-align: center;
-}
-
-@keyframes eit {
-    0% {
-        background: url(images/h1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    25% {
-        background: url(images/h2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    50% {
-        background: url(images/h3.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    75% {
-        background: url(images/h4.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    100% {
-        background: url(images/h5.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
-
-@-webkit-keyframes eit {
-    0% {
-        background: url(images/h2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    25% {
-        background: url(images/h1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    50% {
-        background: url(images/h3.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    75% {
-        background: url(images/h4.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    100% {
-        background: url(images/h5.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
 }
