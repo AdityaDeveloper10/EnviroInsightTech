@@ -19,7 +19,7 @@ body {
     background-attachment: fixed;
     overflow-x: none;
     background-repeat: no-repeat;
-    background-image: url("images/bgbody1.jpg");
+    background-image: url("images/header10.jpg");
     background-size: cover;
     font-family: 'Roboto', sans-serif;
 }
@@ -32,7 +32,7 @@ h3 {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: left;
     padding: 2%;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-right: 2%;
 }
 
@@ -47,7 +47,6 @@ h3 {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 2%;
     margin-left: 2%;
-    margin-right: 2%;
 }
 
 .div2 {
@@ -79,7 +78,7 @@ h3 {
 }
 
 .footerContact {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255);
     color: black;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -123,12 +122,12 @@ header {
     margin: 0;
     padding: 0;
     background-size: cover;
-    background: url("images/headerimg4.jpg");
+    background: url("images/header11.jpg");
     background-position: center;
     overflow-x: none;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 94vh;
     width: 100%;
     text-align: left;
     padding-top: 2%;
